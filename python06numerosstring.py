@@ -1,5 +1,5 @@
 print("Sumar números de textos")
-textoNumeros = input("Introduzca un texto numerico")
+textoNumeros = input("Introduzca un texto numerico: ")
 suma = 0
 # Realizamos un bucle para recorrer cada letra del texto
 for i in range(len(textoNumeros)):
