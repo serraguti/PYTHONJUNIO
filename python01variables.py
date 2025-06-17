@@ -15,3 +15,9 @@ print("texto " + texto)
 #print f nos permite concatenar múltiples variables en un String sin 
 #importar el tipado: Cada variable irá entre llaves {variable}
 print(f"El texto es {texto} y el numero es {numero}")
+#Dentro de las variables tenemos funciones de conversión lo que permiten convertir 
+#entre un tipo y otro, por ejemplo:
+#str(variable): Convierte un valor a string
+#float(variable): Convierte variable a tipo decimal
+#int(variable): Convierte variable a entero
+print("numero " + str(numero))
