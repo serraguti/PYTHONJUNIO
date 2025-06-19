@@ -1,0 +1,11 @@
+from library09validaciones import validarEmail, getLetraNif
+print("Ejemplo librerias propias")
+print("Introduzca un email")
+email = input()
+respuesta = validarEmail(email)
+print(f"El email {email} es {respuesta}")
+print("Introduzca numero NIF")
+dni = int(input())
+letra = getLetraNif(dni)
+print(f"La letra del NIF {dni} es {letra}")
+print("Fin de programa")

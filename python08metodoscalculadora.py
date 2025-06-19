@@ -1,3 +1,5 @@
+#LAS LIBRERIAS SE AGREGAN AL INICIO
+from math import pow
 #DECLARACION DE LOS METODOS
 def sumarNumeros(num1, num2):
     return num1 + num2
@@ -24,6 +26,8 @@ def getComprobarNumero():
 print("Calculadora de métodos")
 numero1 = getComprobarNumero()
 numero2 = getComprobarNumero()
+potencia = pow(numero1, numero2)
+print(potencia)
 #CREAMOS UNA VARIABLE OPCION PARA ENTRAR AL BUCLE
 opcion = 1
 while (opcion != 0):
