@@ -26,7 +26,7 @@ def convertirMinusculas(texto):
 #-------------------------------------------------------------
 #CODIGO PRINCIPAL DE NUESTRO PROGRAMA MAIN
 print("Ejemplo métodos")
-mostrarMenu()
+print(mostrarMenu())
 #LOS METODOS QUE DEVUELVEN VALOR DEBEN ALMACENAR EL 
 #VALOR DEVUELTO EN ALGUN SITIO/VARIABLE
 mayus = convertirMayusculas("curso de python")
