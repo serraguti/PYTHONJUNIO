@@ -4,6 +4,7 @@ class Empleado(Persona):
     #AHORA MISMO UN EMPLEADO TIENE LO MISMO QUE UNA PERSONA
     #PODEMOS IMPLEMENTAR CARACTERISTICAS QUE NO TIENE UNA PERSONA
     def __init__(self):
+        super().__init__()
         self.nombre = "Empleado"
         self.apellidos = "Del mes"
         self.salario = 1700

@@ -10,6 +10,7 @@ listaPersonas.append(persona2)
 listaPersonas.append(persona3)
 print("Probando la clase Persona de POO")
 empleado = Empleado()
+print(empleado.edad)
 #DIBUJAMOS UN EMPLEADO
 print(empleado)
 # print(f"Vacaciones empleado: {empleado.getVacaciones()}")
