@@ -1,7 +1,13 @@
 from models.persona import Persona
 from models.Empleado import Empleado
 from models.Director import Director
-
+persona1 = Persona()
+persona2 = Persona()
+persona3 = Persona()
+listaPersonas = []
+listaPersonas.append(persona1)
+listaPersonas.append(persona2)
+listaPersonas.append(persona3)
 print("Probando la clase Persona de POO")
 empleado = Empleado()
 #DIBUJAMOS UN EMPLEADO
