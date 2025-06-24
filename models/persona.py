@@ -23,7 +23,7 @@ class Persona:
         return self.__dni
     
     #CREAMOS UN METODO QUE NOS DEVUELVA EL NOMBRE Y APELLIDOS DE UNA PERSONA
-    def getNombreCompleto(self, dato: int):
+    def getNombreCompleto(self):
         return self.nombre + " " + self.apellidos
     
     # #ME GUSTARIA TENER UN METODO QUE NOS DEVOLVIERA LOS APELLIDOS Y NOMBRE
