@@ -1,20 +1,24 @@
 from models.persona import Persona
 from models.Empleado import Empleado
 from models.Director import Director
-persona1 = Persona()
-persona2 = Persona()
-persona3 = Persona()
-listaPersonas = []
-listaPersonas.append(persona1)
-listaPersonas.append(persona2)
-listaPersonas.append(persona3)
+# persona1 = Persona()
+# persona2 = Persona()
+# persona3 = Persona()
+# listaPersonas = []
+# listaPersonas.append(persona1)
+# listaPersonas.append(persona2)
+# listaPersonas.append(persona3)
 print("Probando la clase Persona de POO")
+personaje = Persona()
+print(f"Pais persona: {personaje.pais}")
 empleado = Empleado()
-print(empleado.edad)
+#Un empleado es una persona, por lo que también debería ser de Alemania
+print(f"Pais empleado: {empleado.pais}")
+# print(empleado.edad)
 #DIBUJAMOS UN EMPLEADO
-print(empleado)
+#print(empleado)
 # print(f"Vacaciones empleado: {empleado.getVacaciones()}")
-dire = Director()
+# dire = Director()
 # print(f"Vacaciones director: {dire.getVacaciones()}")
 # print(f"Salario: {empleado.salario}")
 # #UNA PERSONA EL CREARSE ES ALEMANA, UN EMPLEADO SERA IGUAL?
